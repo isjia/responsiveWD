@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>固定布局</title>
+	<style type="text/css">
+		@font-face {
+		    font-family: 'AvenirNextCondensedRegular';
+		    src: url('avenirnextcondensed_regular.eot');
+		    src: url('avenirnextcondensed_regular.eot') format('embedded-opentype'),
+		         url('avenirnextcondensed_regular.woff') format('woff'),
+		         url('avenirnextcondensed_regular.ttf') format('truetype'),
+		         url('avenirnextcondensed_regular.svg#AvenirNextCondensedRegular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
+		body {
+			font: normal 100% Helvetica, sans-serif;
+			background: #e3e0d9;
+			color: #000;
+		}
+
+		h1 {
+			font-size: 1.5em; /* 24px / 16px */
+			font-family: 'AvenirNextCondensedRegular';
+			font-weight: 500;
+
+		}
+
+		span {
+			font-size: .5em; /* 12px / 24px */
+			display: block;
+			font-family: Helvetica;
+		}
+
+		p {
+			font-family: 'AvenirNextCondensedRegular';
+			font-weight: normal;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+			<h1>Question One
+				<span>Please choose an answer from below.</span>
+			</h1>
+			<p>In which book did H.G. Wells write: "Great and strange ideas ranscending experience often have less effect upon man and women than smaller, more tangible considerations."</p>
+			<ol>
+				<li>The Invisible Man</li>
+				<li>The War of the Worlds</li>
+				<li>The World Set Free</li>
+
+			</ol>
+		</div>	
+</body>
+</html>
