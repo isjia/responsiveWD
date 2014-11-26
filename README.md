@@ -8,7 +8,7 @@
 
 
 
-> 最好的相机就是你手里的那部
+> 唯有响应式设计是最近似于银弹的子弹
 
 ## 无处不在的Web
 
@@ -56,5 +56,25 @@
 	
 ## 媒介查询
 
+- 视口 viewport
+
+	` <head><meta name="viewprot" content="directive, directive"></head>`
+	
+- 缩放 user-scalable = no
+
+	` <mate name="viewport" content="initial-scale=1, width=device-width" /> `
+	
+- 媒介查询
+
+	` @media [not | only] type [and] (expr) { rules }`
+	
+	- all, screen, print
+	- width, height, device-width, device-height, orientation, aspect-ratio
+	- and, not, or, only
+	
+- 内嵌样式，or外链样式
+- 媒介查询顺序：建议采用从移动端向上的设计思路
+
+	
 
 	
